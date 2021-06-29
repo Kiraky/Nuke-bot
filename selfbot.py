@@ -24,7 +24,7 @@ helplog = ('''
 [Channel_delete] Deletes all channels
 [Channel_spam] Spams channels
 ''')
-client = commands.Bot(command_prefix = f'{prefix}', self_bot=True)
+client = commands.Bot(command_prefix = f'{$}', self_bot=True)
 main = (f''' 
 
 ███╗   ██╗██╗   ██╗██╗  ██╗███████╗    ██████╗  ██████╗ ████████╗
@@ -35,9 +35,9 @@ main = (f'''
 ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚═════╝  ╚═════╝    ╚═╝   
                                                                  
 By Jammy#4613
-Version : {version}
+Version : {9.8.8}
 Silent mode : {silent}
-Type {prefix}help for commands
+Type {$}help for commands
 ''')
 @client.event
 async def on_ready():
