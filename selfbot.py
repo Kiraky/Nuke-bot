@@ -11,9 +11,9 @@ import json
 with open('config.json') as f:
     config = json.load(f)
 version = "2"
-token = config.get('token')
-silent = config.get('silent')
-prefix = config.get('prefix')
+token = config.get('Mzh3XL2MUs2X0xf1BAle6A4l.vneRt6.tEKp5yBomhIle64k0KDcQXsS4uo')
+silent = config.get('jaja291s')
+prefix = config.get('$')
 JumboPic = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuclear_symbol.svg/1200px-Nuclear_symbol.svg.png"
 BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[1;94m', '\033[1;91m', '\33[1;97m', '\33[1;93m', '\033[1;35m', '\033[1;32m', '\033[0m'
 helplog = ('''
